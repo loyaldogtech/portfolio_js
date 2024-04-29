@@ -1,32 +1,31 @@
 End Of Day Stock Data
-This project is a simple web application that allows users to retrieve end-of-day stock data for a given stock symbol and date.
+This project fetches end-of-day stock data using an API and displays it on a webpage.
 
-Features
-Input fields for entering stock symbol and date.
-Button to fetch stock data from an API.
-Display of retrieved stock data including name, date, day open/close prices, day low/high prices, and volume.
-Option to reset search history.
-Getting Started
+Setup
 To run this project locally, follow these steps:
 
-Clone this repository to your local machine.
-Open the index.html file in your web browser.
-Enter a stock symbol and date in the respective input fields.
-Click the "Get data" button to fetch the stock data.
-Prerequisites
-A web browser (e.g., Google Chrome, Mozilla Firefox).
-Access to the internet to fetch stock data from the API.
-Built With
-HTML5
-CSS3
-JavaScript
-API Used
-This project utilizes the StockData API to fetch end-of-day stock data.
-
-Authors
-Shad Spreiter, Mariola Alaixa Gadea Ferrando, Lendi Krizogono
+Clone the repository to your local machine:
+git clone <https://github.com/loyaldogtech/portfolio_js.git>
+Navigate to the project directory:
+cd End-Of-Day-Stock-Data
+Install dependencies using npm:
+npm install
+Usage
+Obtain an API key from Stock Data API.
+Create a .env file in the root directory of the project.
+Add your API key to the .env file:
+makefile
+Copy code
+STOCK_API_KEY=your-api-key
+Save the .env file.
+Start the application:
+npm start
+Open your web browser and go to http://localhost:3000.
+Enter a stock symbol and date, then click "Get data" to retrieve the stock data.
+Notes
+This application uses the Stock Data API to fetch end-of-day stock data. You need to obtain your own API key to use the application.
+The project structure includes HTML, CSS, and JavaScript files. The main JavaScript file is script.js, located in the js directory.
+Contributors
+Your Name
 License
 This project is licensed under the MIT License.
-
-Acknowledgments
-Thanks to StockData API for providing the stock data used in this project.
