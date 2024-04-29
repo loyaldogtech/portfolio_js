@@ -26,6 +26,6 @@ Notes
 This application uses the Stock Data API to fetch end-of-day stock data. You need to obtain your own API key to use the application.
 The project structure includes HTML, CSS, and JavaScript files. The main JavaScript file is script.js, located in the js directory.
 Contributors
-Your Name
+Shad Spreiter, Mariola Alaixa Gadea Ferrando, Lendi Krizogono
 License
 This project is licensed under the MIT License.
